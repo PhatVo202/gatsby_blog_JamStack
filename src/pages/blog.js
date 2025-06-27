@@ -1,18 +1,18 @@
 import * as React from "react"
 import { Headers } from "../components/Header/Headers"
 import { Footers } from "../components/Footer/Footers"
-import { Content } from "./contents/Content"
+import { BlogContent } from "./blog-contents/BlogContent"
 
-const IndexPage = () => {
+const BlogPage = () => {
   return (
     <div>
       <Headers />
-      <Content />
+      <BlogContent />
       <Footers />
     </div>
   )
 }
 
-export default IndexPage
+export default BlogPage
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>Blog Page</title>
